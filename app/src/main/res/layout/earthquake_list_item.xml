@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="16dp">
+
+    <TextView
+        android:text="7.1"
+        android:layout_width="36dp"
+        android:layout_marginRight="16dp"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/magnitude_circle"
+        android:layout_height="36dp"
+        android:id="@+id/mag" />
+
+    <TextView
+        android:text="San Franssisco"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:textColor="@color/textColorEarthquakeDetails"
+        android:layout_height="wrap_content"
+        android:id="@+id/location" />
+
+    <TextView
+        android:text="January 10, 2016"
+        android:gravity="end"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/textColorEarthquakeDetails"
+        android:layout_height="wrap_content"
+        android:id="@+id/date" />
+</LinearLayout>
